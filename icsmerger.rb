@@ -7,6 +7,6 @@ class Icsmerger < Formula
 
   def install
     prefix.install "icsmerger.phar"
-    bin.install_symlink prefix/"icsmerger"
+    bin.install_symlink prefix/"icsmerger.phar"
   end
 end
