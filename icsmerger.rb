@@ -6,7 +6,7 @@ class Icsmerger < Formula
   sha1 "9b1db327d1f865bde52add80b338dd1bcd000d39"
 
   def install
-    prefix.install "icsmerger"
+    prefix.install "icsmerger.phar"
     bin.install_symlink prefix/"icsmerger"
   end
 end
