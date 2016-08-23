@@ -3,7 +3,7 @@ require "formula"
 class Esconfig < Formula
   homepage "https://github.com/hellopablo/esconfig"
   url "https://github.com/hellopablo/esconfig/releases/download/2.0.0/esconfig.phar"
-  sha1 "d8a4e28a1b7c723db0cb513be17fcf131659e3d6"
+  sha256 "b091f646efc73a695b0ff62ce62632c3f1d8323eb24948642b2b52a1315c632c"
 
   def install
     libexec.install "esconfig.phar"
