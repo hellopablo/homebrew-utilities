@@ -7,7 +7,7 @@ class Esconfig < Formula
 
   def install
     libexec.install "esconfig.phar"
-    (libexec/"esconfig").write <<-EOS.undent
+    (libexec/"esconfig").write <<~EOS
       #!/usr/bin/env bash
       /usr/bin/env php -d allow_url_fopen=On -d detect_unicode=Off #{libexec}/esconfig.phar $*
       EOS
